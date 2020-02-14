@@ -3,10 +3,12 @@
 public class followcamera : MonoBehaviour
 {
     public Transform player;
-    public Vector3 offset;
+    public Vector3 Tppoffset;
+    public Vector3 FppOffset;
+
 
     void Update()
     {
-        transform.position = player.position + offset;
+        transform.position = player.position + Tppoffset;
     }
 }
